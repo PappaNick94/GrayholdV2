@@ -92,7 +92,7 @@ body {
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-
+<script>/* T98: phones draw the game at no more than 1.5 pixels per point (iPhone is 3), so the canvas needs a quarter of the video memory. */(function(){var r=window.devicePixelRatio||1;if(navigator.maxTouchPoints>0&&r>1.5){Object.defineProperty(window,"devicePixelRatio",{get:function(){return 1.5;},configurable:true});}})();</script>
 	</head>
 	<body>
 		<canvas id="canvas">
